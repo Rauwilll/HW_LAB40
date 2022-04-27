@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+/* HEADER */
+
+nav{
+    padding: 20px 120px;
+    display: flex;
+    justify-content: space-between
+}
+nav .logo{
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+nav .menu{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+nav .menu a{
+    color: #000;
+    margin-right: 50px;
+}
+nav .button{
+    margin: auto;
+}
+.button a{
+    background-color:#58A9A5;
+    padding: 15px 45px;
+    border-radius: 10px 10px 10px 0;
+    color: white;
+}
+nav .button a{
+    border-radius: 10px;
+}
+
+/* LET'S GO */
+.container{
+    display: flex;
+    padding: 40px 120px;
+    justify-content: space-between;
+    height: 600px;
+}
+.container .description{
+    width: 40%;
+}
+.container .image{
+    width: 50%;
+}
+h1{
+    margin: 0;
+    font-weight: 800;
+    font-size: 45px;
+}
+.container .button{
+    margin-top: 60px;
+}
+.container .first{
+    position: relative;
+}
+.container .second{
+    position: relative;
+    top: -530px;
+}
+
+/* HOW IT'S WORK */
+.work{
+    padding: 10px 120px;
+}
+.name{
+    text-align: center;
+}
+.work .row{
+    height: 219px;
+}
+.row{
+    display: flex;
+}
+.row .img{
+    width: 60%;
+}
+.row .description{
+    width: 20%;
+    padding: 10px 100px;
+    background: #CCF0E6;
+}
+.row h3{
+    font-weight: 700;
+    color:#486958;
+    text-transform: uppercase;
+}
+
+/* MISSION */
+
+.mission{
+    padding: 70px 120px;
+    height: 500px;
+}
+.mission .row{
+    justify-content: space-between;
+}
+.mission .image{
+    width: 45%;
+}
+.mission .text{
+    width: 45%;
+    font-size: 20px;
+}
+.mission h1{
+    font-size: 35px;
+}
+
+/* PROJECT */
+
+.project{
+    padding: 20px 120px;
+    height: 650px;
+}
+.project .row{
+    display: flex;
+    justify-content: space-between;
+}
+.project h2{
+    color: #58A9A5;
+}
+.project p{
+    color: #486958;
+}
+.project .first{
+    width: 30%;
+}
+.project .second{
+    width: 30%;
+}
+.project .third{
+    width: 30%;
+}
+/* TESTIMONIAL */
+
+.testimonial{
+    padding: 20px 120px;
+    height: 400px;
+}
+.testimonial .auth{
+    display: flex;
+}
+.testimonial .img{
+    width: 20%;
+    margin: auto;
+}
+.testimonial img{
+    width: 100%;
+}
+
+/* ROSCOE */
+
+.roscoe{
+    padding: 20px 120px;
+    height: 600px;
+}
+.roscoe .row{
+    display: flex;
+}
+.roscoe .img{
+    width: 40%;
+}
+.roscoe .description{
+    width: 60%;
+    background: #CCF0E6;
+}
+.roscoe .description .numbers{
+    display: flex;
+    justify-content: space-between;
+    color: #58A9A5;
+    font-size: 25px;
+    font-weight: 600;
+}
+.numbers .number{
+    width: 29%;
+}
+.numbers .num{
+    font-size: 50px;
+    font-weight: 800;
+    margin: 0;
+}
+.numbers p {
+    margin: 0;
+}
+
+/* CONTACT */
+
+.contact{
+    padding: 20px 120px;
+    height: 400px;
+}
+.contact .row{
+    justify-content: space-between;
+}
+.text{
+    width: 30%;
+}
+.contact-address{
+    width: 50%;
+    height: 200px;
+    padding: 50px 100px;
+    border: 2px solid #58A9A5;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.contact input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(167, 163, 163);
+}
+.contact .button{
+    display: flex;
+    justify-content: end;
+    margin: 30px 0;
+}
